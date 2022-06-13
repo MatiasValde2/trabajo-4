@@ -1,0 +1,245 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #88BFE6;
+    font-family:fuente-1;
+
+    
+}
+@font-face{
+    font-family: fuente-1;
+    src:url("/trabajo 3/fuentes/Lato-Light.ttf")    
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    background-color:#0F1923;
+    height: 100%;
+    
+    
+    
+
+}
+.nav{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color:#FE4755;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+#boton-1{
+    margin: 15px 15px 15px 0px;
+    padding: 0%;
+    ;
+}
+button:hover{
+    cursor: pointer;
+}
+header{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+}
+
+.gif{
+    width: 100%;
+    height: 100px;
+    display: flex;
+} 
+#seccion-1{
+    margin:0%;
+    padding-top: 100px;
+    background-color:#101720;
+    width: 100%;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+h1{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    font-size: 2.5em;
+}
+.conteiner-padre1{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner1{
+    width: 40%;
+    margin: 0%;
+    
+ 
+}
+.conteiner1 > p{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-size: 1.5em;
+}
+
+
+ #img1{
+    height: 40vh;
+    width: 650px;
+    margin: 10px;
+    border-radius: 20px;  
+    
+}
+.conteiner1 > button{
+   background-color:#2C4A69;
+   color: white;
+   width: 110px;
+   height: 50px;
+   border-radius: 20px;
+   border: none;
+   
+}
+.conteiner1 > button:hover{
+    background-color: #FE4755;
+}
+.seccion-2{
+    margin: 0%;
+    padding: 0%;
+    background-color: #2C4A69;
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+ 
+ .seccion-2 h2{
+    width: 50%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    margin: 0%;
+    padding: 0%;  
+} 
+.roles{
+    width: 100vh;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    gap: 30px; 
+
+}
+.roles p{
+    text-align: center;
+    font-family: fuente-1;
+    font-size: 1.5em;
+    color: white;
+    
+}
+.roles img{
+    width: 100px;
+    height: 100px;
+}
+.roles-logo{
+    justify-content: space-between;
+}
+
+#seccion-3{
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101720;
+    width: 100vw;
+
+} 
+#seccion-3 h3{
+    
+    margin: 0%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: fuente-1;
+}
+ .conteiner-agentes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; 
+    height: auto;
+    flex-wrap: wrap;
+    
+    
+    
+}
+ .agente{
+    margin: 50px 0px;
+    width: 23%;
+    height: 400px;
+    box-shadow:-1px -4px 20px 16px rgba(254,71,85,1);
+    -webkit-box-shadow: -1px -4px 20px 16px rgba(254,71,85,1);
+    -moz-box-shadow: -1px -4px 20px 16px rgba(254,71,85,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 30px;
+} 
+.agente img{
+    width: 50%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.agente h3{
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+.agente button{
+   background-color:#2C4A69;
+   color: white;
+   width: 50%;
+   height: 50px;
+   font-size: 1em;
+   border-radius: 20px;
+   border: none;
+   margin-top: 30px;
+   padding: 0%;
+}
+.agente button:hover{
+    background-color: #FE4755;
+}
+    
